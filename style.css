@@ -27,6 +27,7 @@ body{
   width: 100%;
   background-size: cover;
   float: left;
+  opacity: 0.7;
 }
 
 .about-profile{
@@ -44,11 +45,14 @@ body{
 
 .about-text{
   font-family: 'Montserrat', sans-serif;
-
+  color: black;
 }
   .about-text h1{
     font-size: 2rem;
     text-align: center;
+  }
+  .about-text p{
+    margin: 0;
   }
 
 .socmed-links-container{
