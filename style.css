@@ -1,0 +1,27 @@
+.header-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+  .header-list a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .header-list li{
+    float: left;
+  }
+
+.about-background{
+  z-index: -1;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.something{
+  position: static;
+  text-align: center;
+}
