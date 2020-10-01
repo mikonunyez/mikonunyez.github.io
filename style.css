@@ -1,11 +1,10 @@
 body{
   margin: 0px;
-  padding: 0;
-  border: 0;
+  background-color: #dddddd;
 }
 
 .header-list{
-  list-style: none;
+  list-style-type: none;
   font-family: 'Roboto';
   color: white;
   margin: 0;
@@ -16,7 +15,6 @@ body{
     width: 60px;
     text-decoration: none;
     color: inherit;
-
   }
   .header-list li{
     display: inline-block;
@@ -33,10 +31,6 @@ body{
 
 .about-profile{
   border-radius: 50%;
-  /* position: absolute;
-  top: 50%;
-  left: 32%;
-  transform: translate(-50%, -50%); */
 }
 
 .about-content{
@@ -48,10 +42,6 @@ body{
   transform: translate(0, -50%);
 }
 
-.about-content li{
-  display: inline-block;
-}
-
 .about-text{
   font-family: 'Montserrat', sans-serif;
 
@@ -59,4 +49,21 @@ body{
   .about-text h1{
     font-size: 2rem;
     text-align: center;
+  }
+
+.socmed-links-container{
+  list-style-type: none;
+  font-family: 'Roboto';
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+  .socmed-links-container a{
+    color: black;
+    text-decoration: none;
+  }
+  .socmed-links-container li{
+    display: inline-block;
+    padding: 10px 40px;
   }
