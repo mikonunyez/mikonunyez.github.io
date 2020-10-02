@@ -4,6 +4,7 @@ body{
 }
 
 .header-list{
+  z-index: 2;
   list-style-type: none;
   font-family: 'Roboto';
   color: white;
@@ -17,7 +18,7 @@ body{
     color: inherit;
   }
   .header-list li{
-    display: inline-block;
+    display: inline-flex;
     padding: 10px 40px;
   }
 
@@ -35,7 +36,7 @@ body{
 }
 
 .about-content{
-  list-style: none;
+  list-style-type: none;
   text-align: center;
   position: static;
   top: 50%;
@@ -56,7 +57,7 @@ body{
   }
 
 .socmed-links-container{
-  list-style-type: none;
+  list-style: none;
   font-family: 'Roboto';
   color: white;
   margin: 0;
@@ -68,6 +69,6 @@ body{
     text-decoration: none;
   }
   .socmed-links-container li{
-    display: inline-block;
     padding: 10px 40px;
+    display: inline-flex;
   }
