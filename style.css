@@ -22,39 +22,36 @@ body{
     padding: 10px 40px;
   }
 
-.about-background{
-  z-index: -1;
-  position: relative;
-  width: 100%;
-  background-size: cover;
-  float: left;
-  opacity: 0.7;
+.about-container{
+  display: grid;
+  grid-template-columns: [column1-start] 10% [column2-start] auto [column3-start] 10%;
+  grid-template-rows: [row1-start] 10% [row2-start] auto [row-3-start] 25%;
+  justify-items: center;
 }
-
-.about-profile{
-  border-radius: 50%;
-}
-
-.about-content{
-  list-style-type: none;
-  text-align: center;
-  position: static;
-  top: 50%;
-  left: 50%;
-  transform: translate(0, -50%);
-}
-
-.about-text{
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-}
+  .about-background{
+    z-index: -1;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.7;
+    grid-column: 1 / 4;
+  }
+  .about-content{
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row-start: row2-start ;
+  }
+  .about-profile{
+    border-radius: 50%;
+  }
+  .about-text{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
   .about-text h1{
     font-size: 2rem;
-    text-align: center;
   }
   .about-text p{
-    margin: 0;
-  }
+}
 
 .socmed-links-container{
   list-style: none;
