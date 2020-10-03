@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px){
+/* @media only screen and (max-width: 400px){
   .about-background{
     display: none;
   }
@@ -13,7 +13,7 @@
   .about-text h1{
     font-size: 1rem;
   }
-}
+} */
 
 body{
   margin: 0px;
@@ -36,7 +36,7 @@ body{
   }
   .header-list li{
     display: inline-flex;
-    padding: 10px 40px;
+    padding: 10px 20px;
   }
 
 .about-container{
