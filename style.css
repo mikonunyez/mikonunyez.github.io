@@ -68,6 +68,7 @@ body{
   display: grid;
   grid-template-columns: repeat(2, 3fr) 1fr;
   column-gap: 3%;
+  min-height: 100vh;
   color: #F8F4F9;
 }
   .about-profile-1{
