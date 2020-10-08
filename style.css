@@ -90,11 +90,21 @@ body{
   .about-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     min-height: 100vh;
   }
-  .about-profile-1 img{
-    width: 100%;
-    height: auto;
+  .about-profile-1{
+    padding-top: 15%;
+    justify-content: center;
+  }
+    .about-profile-1 img{
+      width: 70%;
+      height: auto;
+    }
+
+  .about-container p{
+    padding: 15%;
   }
 }
 .contact-container{
