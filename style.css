@@ -63,6 +63,7 @@ body{
     padding: 20px;
   }
 
+
 .about-container{
   display: grid;
   grid-template-columns: repeat(2, 3fr) 1fr;
@@ -76,6 +77,7 @@ body{
   }
     .about-profile-1 img{
       height: 50vh;
+      max-width: 100vh;
     }
   .about-container p{
     margin: auto;
@@ -83,7 +85,12 @@ body{
   .about-container a{
     color: #F8F4F9;
   }
-
+@media screen and (max-width: 370px){
+  .about-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .contact-container{
   display: flex;
   flex-flow: column;
