@@ -11,17 +11,13 @@ body{
 
 .nav-container{
   position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
 }
-  .nav-container ul{
-    display: flex;
-    list-style-type: none;
-    padding: 10% 0 0 0;
-    margin: 0;
-  }
-  .nav-container ul li{
-    padding: 0 0 0 10px;
-  }
-  .nav-container ul li a{
+  .nav-container a{
+    padding: 0.4rem 0 0 0.4rem;
+    float: left;
     font-size: 0.9rem;
     text-decoration: none;
     color: white;
@@ -56,7 +52,7 @@ body{
       text-align: justify;
       font-size: 1.2rem;
       font-weight: normal;
-      color: #B1DDF1;
+      color: #B2B2B2;
     }
   .home-profile{
     border-radius: 50%;
@@ -66,7 +62,7 @@ body{
 
 .about-container{
   display: grid;
-  grid-template-columns: repeat(2, 3fr) 1fr;
+  grid-template-columns: repeat(2, 2fr) 1fr;
   column-gap: 3%;
   min-height: 100vh;
   color: #F8F4F9;
@@ -80,12 +76,21 @@ body{
       height: 50vh;
       max-width: 100vh;
     }
-  .about-container p{
+
+  .about-content{
+    vertical-align: middle;
+    text-align: left;
+    color: #F8F4F9;
     margin: auto;
   }
-  .about-container a{
-    color: #F8F4F9;
-  }
+    .about-content h1{
+      font-weight: normal;
+      color: #B1DDF1;
+    }
+    .about-content a{
+      color: #F8F4F9;
+    }
+
 @media screen and (max-width: 480px){
   .about-container{
     display: flex;
@@ -95,16 +100,16 @@ body{
     min-height: 100vh;
   }
   .about-profile-1{
-    padding-top: 15%;
+    padding-top: 10%;
     justify-content: center;
   }
     .about-profile-1 img{
-      width: 70%;
+      width: 80%;
       height: auto;
     }
 
-  .about-container p{
-    padding: 15%;
+  .about-content{
+    padding: 10%;
   }
 }
 .contact-container{
