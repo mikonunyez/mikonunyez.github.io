@@ -9,6 +9,14 @@ body{
   margin: 0;
 }
 
+.social-media-icons{
+  vertical-align: middle;
+  height: 1.5rem;
+  width: auto;
+  padding: 0.1em;
+  filter: invert(90%);
+}
+
 .nav-container{
   position: fixed;
   width: 100%;
@@ -59,7 +67,6 @@ body{
     padding: 20px;
   }
 
-
 .about-container{
   display: grid;
   grid-template-columns: repeat(2, 2fr) 1fr;
@@ -82,13 +89,15 @@ body{
     text-align: left;
     color: #F8F4F9;
     margin: auto;
+    border-left: 1px solid white;
+    padding-left: 4.5%;
   }
     .about-content h1{
       font-weight: normal;
       color: #B1DDF1;
     }
     .about-content a{
-      color: #F8F4F9;
+      color: inherit;
     }
 
 /* media query */
@@ -113,33 +122,6 @@ body{
     padding: 10%;
   }
 }
-
-.contact-container{
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  background-color: inherit;
-  color: #F8F4F9;
-}
-  .contact-container p{
-
-  }
-    .contact-container p a{
-      color: inherit;
-    }
-    .contact-container p strong{
-      font-family: 'Raleway', sans-serif;
-    }
-  .contact-container ul{
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-  .contact-container ul li a{
-    text-decoration: none;
-    color: #F8F4F9;
-  }
 
 .footer{
   font-size: 0.7rem;
