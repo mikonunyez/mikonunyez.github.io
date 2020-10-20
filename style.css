@@ -5,8 +5,14 @@ html{
     background-color: #292931;
 }
 
-body{
+body, h1{
   margin: 0;
+  font-weight: normal;
+}
+
+.text-header{
+  font-weight: normal;
+  color: #79bbda;
 }
 
 .social-media-icons{
@@ -42,16 +48,6 @@ body{
   height: 100vh;
   background: url(img/background.jpg) no-repeat center center fixed;
 }
-  .home-container h1{
-    font-size: 2rem;
-    font-weight: 100;
-    margin: 10px;
-    margin-bottom: 0;
-  }
-  .home-container h1 strong{
-    font-weight: normal;
-    color: #B1DDF1;
-  }
   .home-container p{
     font-size: 1rem;
     margin-top: 0;
@@ -92,10 +88,6 @@ body{
     border-left: 1px solid white;
     padding-left: 4.5%;
   }
-    .about-content h1{
-      font-weight: normal;
-      color: #B1DDF1;
-    }
     .about-content a{
       color: inherit;
     }
