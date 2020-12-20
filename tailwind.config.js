@@ -10,6 +10,9 @@ module.exports = {
         cyan: colors.cyan,
         teal: colors.teal
       },
+      backgroundImage: theme => ({
+        'landing-profile': 'url(/dist/img/profile-portrait.jpg)'
+      }),
     },
   },
   variants: {
