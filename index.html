@@ -1,79 +1,83 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <!-- meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Miko Nuñez' portfolio">
-
-    <!-- icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
-
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-
-    <!-- css -->
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miko Nuñez</title>
-  </head>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
+<body class="bg-gray-100">
 
-  <body>
-
-    <div class="home-container" id="home">
-      <img class="home-profile" src="img/profile.jpg" alt="picture of me">
-      <h1>Hi! I'm <strong class="text-header">Miko Nuñez</strong></h1>
-      <p>
-        <strong>Software Dev | Cybersecurity</strong><br>
-        <br>
-        <a href="https://twitter.com/mikonunyez" target="_blank"><img class="social-media-icons" src="img/icons/twitter.png" alt="Twitter icon"></a>
-        <a href="https://instagram.com/mikonunyez" target="_blank"><img class="social-media-icons" src="img/icons/instagram.png" alt="Instagram icon"></a>
-        <a href="https://linkedin.com/in/mikonunyez" target="_blank"><img class="social-media-icons" src="img/icons/linkedin.png" alt="LinkedIn icon"></a>
-        <a href="https://github.com/mikonunyez" target="_blank"><img class="social-media-icons" src="img/icons/github.png" alt="GitHub icon"></a>
-      </p>
+    <div class="flex sm:grid lg:grid-cols-2 items-center justify-center h-screen sm:h-auto bg-white text-center lg:text-left lg:bg-none bg-landing-profile bg-no-repeat bg-cover">
+        <div class="font-mono my-20 mx-7 justify-self-center">
+            <h1 class="font-bold text-5xl sm:text-8xl text-teal-500 tracking-wide">MIKO NUÑEZ</h1>
+            <p class="-mt-2 font-thin text-base sm:text-2xl text-white lg:text-gray-600 tracking-widest">front-end dev | cybersecurity</p>
+            <div class="my-8 sm:my-12">
+                <a href="#about">
+                    <button class="border border-1 border-teal-500 bg-teal-500 text-white w-28 h-12 rounded transition duration-300 hover:bg-teal-600 hover:border-teal-600">About</button>
+                </a>
+                <a href="#projects">
+                    <button class="border border-1 border-teal-500 text-white lg:text-teal-500 w-28 h-12 rounded transition duration-300 hover:bg-teal-600 hover:border-teal-600 hover:text-white">Projects</button>
+                </a>
+            </div>
+            <div class="leading-tight tracking-tight text-gray-500 text-left lg:my-auto text-base sm:text-base bg-gray-100 rounded shadow-md p-2 bg-opacity-90 lg:bg-opacity-100">
+                <strong class="text-red-500">root</strong>@web: <strong class="font-normal text-teal-500">/Social Media$ </strong>ls<strong class="animate-pulse duration-300 font-black">_</strong><br>
+                |-<a class="animate duration-500 hover:text-cyan-500" href="https://twitter.com/mikonunyez" target="_blank">Twitter</a><br>
+                |-<a class="animate duration-500 hover:text-pink-600" href="https://instagram.com/mikonunyez" target="_blank">Instagram</a><br>
+                |-<a class="animate duration-500 hover:text-blue-700" href="https://linkedin.com/in/mikonunyez" target="_blank">LinkedIn</a><br>
+                |-<a class="animate duration-500 hover:text-gray-700" href="https://github.com/mikonunyez" target="_blank">GitHub</a><br>
+                |-<a class="animate duration-500 hover:text-blue-700" href="https://facebook.com/mikonunyez" target="_blank">Facebook</a><br>
+                <br>
+                <strong class="text-red-500">root</strong>@web: <srtong class="font-normal text-teal-500">/Contact$ </srtong>ls<strong class="animate-pulse duration-300 font-black">_</strong><br>
+                |-<a class="animate duration-500 hover:text-teal-500" href="mailto:miko.nunez@g.msuiit.edu.ph">Email</a>
+            </div>
+        </div>
+        <img class="hidden lg:flex" src="/dist/img/profile.jpg" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);" alt="">
     </div>
 
-    <div class="about-container" id="about">
-      <div class="about-profile-1">
-        <img src="img/miko_1.jpg" alt="another picture of me">
-      </div>
-
-      <div class="about-content">
-        <h1 class="text-header">About Me</h1>
-        <p>
-          I graduated from the Philippine Science High School - Caraga Region Campus in 2020.
-          I'm a freshman in <a target="_blank" href="https://www.msuiit.edu.ph/">Mindanao State University Iligan Institute of Technology</a>
-          where I'm currently enrolled in an Information Systems course.
-          <br>
-          <br>
-          Off-campus, I study cybersecurity and software development. My hobbies include riding motorcycles, driving cars, and calisthenics.
-          <br>
-          <br>
-          I aspire to work in cybersecurity someday. For now, I do side projects as a learning experience.
-          <br>
-          <br>
-
-        </p>
-        <br>
-      </div>
-
+    <div id="about" class="sm:flex items-center justify-center lg:w-4/5 xl:w-3/5 my-10 mx-7 sm:mx-auto font-mono text-gray-600">
+        <div class="sm:mx-5 text-center sm:text-left self-start">
+            <h1 class="font-bold text-2xl sm:text-6xl text-teal-500 tracking-wide my-7">About Me</h1>
+            <p class="tracking-wide text-left font-sans text-base sm:text-xl">
+                I'm a Philippine Science High School graduate. I'm currently enrolled in
+                <a href="" class="">Mindanao State University Iligan Institute of Technology</a>
+                studying Information Systems
+                <br><br>
+                I'm a front-end dev that's studying cybersecurity off-campus. I'm aspiring to work in the cybersec field in the future.
+                <br><br>
+                My hobbies include calisthenics and riding motorcycles
+            </p>
+        </div>
+        <!-- Twitter Profile embed -->
+        <div class="my-10 sm:my-auto shadow-md">
+            <a class="twitter-timeline" data-width="900" data-height="500" href="https://twitter.com/mikonunyez?ref_src=twsrc%5Etfw">Tweets by mikonunyez</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>    
     </div>
 
-    <footer class="footer">
-      <strong>Miko Nuñez</strong><br>
-      Student<br>
-      <br>
-      College of Computer Studies<br>
-      Mindanao State University Iligan Institute of Technology<br>
-      Andres Bonifacio Avenue, Tibanga, 9200 Iligan City, Philippines<br>
-      <br>
-      <a href="mailto:miko.nunez@g.msuiit.edu.ph">miko.nunez.g.msuiit.edu.ph</a><br>
-      <br>
-      © 2020 Miko Nuñez
+    <div id="projects" class="sm:flex-row items-center justify-center lg:w-4/5 xl:w-3/5 mt-32 mx-7 sm:mx-auto font-mono">
+        <h1 class="font-bold text-2xl sm:text-5xl text-teal-500 tracking-wide my-7 text-center">Projects</h1>
+        <div class="bg-white shadow-md sm:w-1/2 mx-auto overflow-hidden">
+            <a href="https://ktm-caraga-brothers.netlify.app/">
+                <img class="h-auto transform hover:scale-125 transition-transform duration-300" src="/dist/img/ktm-caraga-brothers.png" alt="">
+            </a>
+            <h1 class="text-xl text-gray-600 mx-4 my-2 font-bold">KTM Caraga Brothers</h1>
+            <p class="text-sm text-gray-600 mx-4 my-2">A website made for my bike group in Caraga</p>
+        </div>
+    </div>
+
+    <footer class="mx-auto font-mono text-center mt-10 text-gray-600 text-xs">
+        © 2020 Miko Nuñez, all rights reserved
+        <br><br>
     </footer>
-  </body>
+</body>
 </html>
