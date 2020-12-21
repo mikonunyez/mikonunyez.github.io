@@ -21,7 +21,7 @@
                 <a href="#about">
                     <button class="border border-1 border-teal-500 bg-teal-500 text-white w-28 h-12 rounded transition duration-300 hover:bg-teal-600 hover:border-teal-600">About</button>
                 </a>
-                <a href="">
+                <a href="#projects">
                     <button class="border border-1 border-teal-500 text-white lg:text-teal-500 w-28 h-12 rounded transition duration-300 hover:bg-teal-600 hover:border-teal-600 hover:text-white">Projects</button>
                 </a>
             </div>
@@ -54,13 +54,24 @@
             </p>
         </div>
         <!-- Twitter Profile embed -->
-        <div class="my-10 sm:my-auto">
+        <div class="my-10 sm:my-auto shadow-md">
             <a class="twitter-timeline" data-width="900" data-height="500" href="https://twitter.com/mikonunyez?ref_src=twsrc%5Etfw">Tweets by mikonunyez</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>    
     </div>
 
-    <footer class="mx-auto font-mono text-center text-gray-600 text-xs">
+    <div id="projects" class="sm:flex-row items-center justify-center lg:w-4/5 xl:w-3/5 mt-32 mx-7 sm:mx-auto font-mono">
+        <h1 class="font-bold text-2xl sm:text-5xl text-teal-500 tracking-wide my-7 text-center">Projects</h1>
+        <div class="bg-white shadow-md sm:w-1/2 mx-auto overflow-hidden">
+            <a href="https://ktm-caraga-brothers.netlify.app/">
+                <img class="h-auto transform hover:scale-125 transition-transform duration-300" src="/dist/img/ktm-caraga-brothers.png" alt="">
+            </a>
+            <h1 class="text-xl text-gray-600 mx-4 my-2 font-bold">KTM Caraga Brothers</h1>
+            <p class="text-sm text-gray-600 mx-4 my-2">A website made for my bike group in Caraga</p>
+        </div>
+    </div>
+
+    <footer class="mx-auto font-mono text-center mt-10 text-gray-600 text-xs">
         © 2020 Miko Nuñez, all rights reserved
         <br><br>
     </footer>
