@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build-tailwindcss": "tailwindcss build src/tailwindcss.css -o dist/css/styles.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "tailwindcss": "^2.1.4"
+  }
+}
